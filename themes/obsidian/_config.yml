@@ -12,6 +12,12 @@
 #!  tab_replace:
 #! ---------------------------------------------------------------
 
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: true
+  tab_replace:
+
 # Theme version
 version: "1.3.4"
 
@@ -21,10 +27,10 @@ version: "1.3.4"
 
 # Menu setting | format = title_name: link_url
 menu:
-  ABOUT: /light/whoami
-  CATEGORIES: /light/categories
-  TAGS: /light/tags
-  ARCHIVES: /light/archives
+  ABOUT: /whoami
+  CATEGORIES: /categories
+  TAGS: /tags
+  ARCHIVES: /archives
 
 # Social media links
 socials:
