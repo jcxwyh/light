@@ -36,10 +36,10 @@ socials:
 TOC: true
 
 # Home page first post default cover image, default use cover
-welcome_cover: /img/cover.jpg
+welcome_cover: /light/img/cover.jpg
 
 # Article default cover image
-cover: /img/welcome-cover.jpg
+cover: /light/img/welcome-cover.jpg
 
 # Avatar
 avatar: https://res.cloudinary.com/tridiamond/image/upload/v1571154379/TriDiamondLogoCircleLighting_llbad2.png
