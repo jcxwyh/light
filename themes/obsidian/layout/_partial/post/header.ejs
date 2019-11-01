@@ -1,15 +1,24 @@
+<!-- AaronJiang 统计阅读进度的进度条 -->
 <div class="scrollbar gradient-bg-rev"></div>
+<!-- AaronJiang 顶部head栏 -->
 <div id="top" style="display: block;">
+    <!-- AaronJiang 唱歌的进度条 -->
     <div class="bar" style="width: 0;"></div>
+    <!-- AaronJiang 返回主页图标 -->
     <a id="home-icon" class="image-icon icon-home iconfont animated fadeIn" href="javascript:;" data-url="<%= config.url %>"></a>
+    
+    <!-- AaronJiang 控制播放的按钮 -->
     <div id="play-icon" title="Play/Pause" class="iconfont icon-play animated fadeIn"></div>
+    <!-- AaronJiang 该文章的标题 -->
     <h3 class="subtitle"><%- page.title %></h3>
+    <!-- AaronJiang 社交功能 -->
     <div class="social">
 <!--        <div class="like-icon">-->
 <!--            <a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
 <!--        </div>-->
         <div>
             <div class="share animated fadeIn">
+                <!-- AaronJiang 分享功能 -->
                 <% if (theme.sharejs && theme.sharejs.enable == true) { %>
                     <a href="javascript:;" class="iconfont icon-share1"></a>
                     <div class="share-component-cc" data-disabled="<%= theme.sharejs.disabled || '' %>"></div>

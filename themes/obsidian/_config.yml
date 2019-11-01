@@ -21,10 +21,10 @@ version: "1.3.4"
 
 # Menu setting | format = title_name: link_url
 menu:
-  ABOUT: /whoami
-  CATEGORIES: /categories
-  TAGS: /tags
-  ARCHIVES: /archives
+  ABOUT: /light/whoami
+  CATEGORIES: /light/categories
+  TAGS: /light/tags
+  ARCHIVES: /light/archives
 
 # Social media links
 socials:
